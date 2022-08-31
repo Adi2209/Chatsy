@@ -3,12 +3,12 @@
 .App {
   min-height: 100vh;
   display: flex;
-  background-image: url("./background.gif");
+  background-image: url("./background.png");
   background-position: center;
   background-size: cover;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 0px;
 }
 
@@ -16,7 +16,7 @@
   background: rgba(136, 136, 136, 0.281);
 }
 
- /* Handle on hover  */
- ::-webkit-scrollbar-thumb:hover {
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
   background: #555;
-} 
+}
